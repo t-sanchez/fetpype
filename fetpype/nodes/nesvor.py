@@ -533,7 +533,7 @@ class NesvorReconstruction(CommandLine):
 class NesvorFullReconstructionInputSpec(CommandLineInputSpec):
     """
     Class for the input for the NeSVoRRecon nipype interface.
-    Inherits from ContainerCommandLine.
+    Inherits from CommandLineInputSpec.
 
     Some attributes are missing. Need to be implemented later to complete the
     nipype interface.
